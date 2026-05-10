@@ -69,7 +69,7 @@ export default function App() {
             <>
               <WatchedSummary watched={watched} />
               <WatchedMovieList watched={watched} />
-              <StarRating />
+              <StarRating MaxRating={5} color="#ffc419" size={24} messages={["Terrible", "Bad", "Okay", "Good", "Great"]} defaultRating={3} />
             </>
          </Box>
       </Main>
